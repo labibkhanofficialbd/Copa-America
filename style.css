@@ -31,6 +31,8 @@ header{
 }
 a{
     font-size: 16px;
+    text-decoration: none;
+    color: white;
 }
 .header-logout{
     display: flex;
@@ -48,6 +50,7 @@ a{
 .header-logout li{
     margin-left: 10px;
 }
+
 .header-logout:hover{
     background-color: yellow;
     color: #2D25A0;
@@ -124,4 +127,34 @@ a{
 }
 .player-info img{
     width: 100%;
+}
+
+/* HIGHLIGHT SECTION STYLES */
+.highlight{
+    display: flex;
+    background-color: #2D25A0;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.highlight-image{
+    width: 60%;
+}
+.highlight-image img{
+    width: 120%;
+}
+.highlight-image:hover img{
+    transform:  scale(1.1) ;
+    transition: transform 1s ease-in;
+}
+.highlight-title-button{
+    margin-left: 160px;
+}
+.highlight-title-button h2{
+    font-size: 64px;
+    color: white;
+    
+    
 }
