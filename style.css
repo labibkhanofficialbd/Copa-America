@@ -21,6 +21,8 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 .header-menu{
     display: flex;
@@ -66,7 +68,7 @@ a{
     display: flex;
     align-items: center;
     padding-left: 200px;
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 65px;
     
     background-color: #2D25A0;
@@ -248,4 +250,49 @@ footer p{
 .fa-twitter:hover{
     background-color: #E02C6D;
     transition: ease-out 0.5s;
+}
+
+/* MEDIA QUREY */
+@media only screen and (max-width:688px) {
+    header{
+        display: none;
+    }
+    .hero-section{
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        
+        
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .hero-title-button h2{
+        width: 300px;
+    }
+    .hero-image img{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .player-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+        padding-right: 20px;
+        
+    }
+    .highlight-image img{
+        margin-left: 50px;
+    }
+    .highlight-title-button{
+        margin-left: 20px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
