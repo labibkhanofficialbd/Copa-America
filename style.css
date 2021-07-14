@@ -226,7 +226,10 @@ footer{
     padding-bottom: 50px;
 }
 footer img{
-    width: 20%;
+    width: 10%;
+}
+.social-icon{
+    margin-top: 20px;
 }
 .social-icon i{
     margin-left: 10px;
