@@ -4,7 +4,7 @@
 /* COMMON STYLES */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    background-color: #ebfaff;
     margin: 0;
     padding: 0;
 }
@@ -99,4 +99,29 @@ a{
     width: 70%;
     margin-left: 100px;
     
+}
+
+/* MAIN SECTION STYLES */
+.player-grid{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.player-info{
+    width: 330px;
+    height: 474px;
+    box-shadow: 1px 1px 10px rgb(168, 168, 168);
+    padding: 20px;
+    padding-bottom: 70px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.player-info img{
+    width: 100%;
 }
