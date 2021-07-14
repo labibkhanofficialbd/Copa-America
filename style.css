@@ -19,7 +19,7 @@ header{
 }
 .header-menu{
     display: flex;
-    margin-left: 200px;
+    margin-left: 170px;
 }
 .header-menu a{
     color: white;
@@ -43,7 +43,60 @@ a{
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    transition: ease-out 0.5s;
 }
 .header-logout li{
     margin-left: 10px;
+}
+.header-logout:hover{
+    background-color: yellow;
+    color: #2D25A0;
+}
+
+/* HERO SECTION STYLES */
+.hero-section{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    
+    background-color: #2D25A0;
+
+}
+.hero-title-button h2{
+    font-size: 64px;
+    color: white;
+    width: 500px;
+}
+.learnmore-button{
+    display: flex;
+    list-style: none;
+    
+    align-items: center;
+    background-color: #E02C6D;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.5s;
+    width: 168px;
+    
+}
+.learnmore-button li{
+    margin-right: 10px;
+}
+.learnmore-button:hover{
+    background-color: yellow;
+    color: #2D25A0;
+}
+.hero-image:hover img{
+    transform:  scale(1.1) ;
+    transition: transform 1s ease-in;
+}
+.hero-image img{
+    width: 70%;
+    margin-left: 100px;
+    
 }
