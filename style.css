@@ -120,13 +120,14 @@ a{
     box-shadow: 1px 1px 10px rgb(168, 168, 168);
     padding: 20px;
     padding-bottom: 70px;
-    margin: 10px;
+    margin: 20px;
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
 }
 .player-info img{
     width: 100%;
+    border-radius: 5px;
 }
 
 /* HIGHLIGHT SECTION STYLES */
@@ -134,7 +135,7 @@ a{
     display: flex;
     background-color: #2D25A0;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -143,18 +144,45 @@ a{
     width: 60%;
 }
 .highlight-image img{
-    width: 120%;
+    width: 130%;
 }
 .highlight-image:hover img{
     transform:  scale(1.1) ;
     transition: transform 1s ease-in;
 }
 .highlight-title-button{
-    margin-left: 160px;
+    margin-left: 180px;
 }
 .highlight-title-button h2{
     font-size: 64px;
     color: white;
-    
-    
+}
+
+/* TEAM SECTION STYLES */
+.team-title{
+    font-size: 44px;
+    text-align: center;
+    color: #2D25A0;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.team-flag{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(205, 228, 236);
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.team-flag img{
+    width: 60%;
 }
