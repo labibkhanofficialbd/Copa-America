@@ -24,6 +24,9 @@ header{
     position: fixed;
     width: 100%;
 }
+.menu{
+    display: none;
+}
 .header-menu{
     display: flex;
     margin-left: 170px;
@@ -254,14 +257,21 @@ footer p{
 
 /* MEDIA QUREY */
 @media only screen and (max-width:688px) {
-    header{
+    .header-menu{
         display: none;
+    }
+    .menu{
+        display: inline;
+        color: white;
+        padding-left: 30px;
+    }
+    .header-logout{
+        margin-left: 180px;
     }
     .hero-section{
         display: grid;
         grid-template-columns: repeat(1, fr);
-        
-        
+        padding-top: 50px;
         padding-left: 50px;
         padding-right: 20px;
     }
