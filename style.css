@@ -8,6 +8,11 @@ body{
     margin: 0;
     padding: 0;
 }
+.title{
+    font-size: 44px;
+    text-align: center;
+    color: #2D25A0;
+}
 
 /* HEADER STYLES */
 header{
@@ -117,7 +122,7 @@ a{
 .player-info{
     width: 330px;
     height: 474px;
-    box-shadow: 1px 1px 10px rgb(168, 168, 168);
+    box-shadow: 1px 1px 10px rgb(205, 228, 236);
     padding: 20px;
     padding-bottom: 70px;
     margin: 20px;
@@ -159,11 +164,6 @@ a{
 }
 
 /* TEAM SECTION STYLES */
-.team-title{
-    font-size: 44px;
-    text-align: center;
-    color: #2D25A0;
-}
 .team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -177,7 +177,7 @@ a{
     background-color: white;
     box-shadow: 1px 1px 10px rgb(205, 228, 236);
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
     align-items: center;
     display: flex;
@@ -185,4 +185,29 @@ a{
 }
 .team-flag img{
     width: 60%;
+}
+
+/* CHAMPION SECTION STYLES */
+.champ-title{
+    font-size: 44px;
+    text-align: center;
+    color: white;
+}
+.champion{
+    background-color: #2D25A0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.cheer-video{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.cheer-video video{
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(205, 228, 236);
+    border-radius: 5px;
 }
