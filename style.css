@@ -13,6 +13,14 @@ body{
     text-align: center;
     color: #2D25A0;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #E02C6D;
+}
 
 /* HEADER STYLES */
 header{
@@ -290,6 +298,58 @@ footer p{
     .player-grid{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+        padding-right: 20px;
+        
+    }
+    .highlight-image img{
+        margin-left: 50px;
+    }
+    .highlight-title-button{
+        margin-left: 20px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .header-menu{
+        display: none;
+    }
+    .menu{
+        display: inline;
+        color: white;
+        padding-left: 60px;
+    }
+    .header-logout{
+        margin-left: 500px;
+    }
+    .hero-section{
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        padding-top: 100px;
+        padding-left: 120px;
+        padding-right: 20px;
+    }
+    .hero-title-button h2{
+        width: 600px;
+    }
+    .hero-image img{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .player-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .highlight{
         display: grid;
