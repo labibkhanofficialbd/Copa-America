@@ -16,7 +16,7 @@
 
 
 # Copa-America
-This is an ecommerce website that i make using bootstrap. This the most pretty nice ecommerce website i ever make. And my first experience with bootstrap. I love it
+Copa America 2021 Website. I try to make this is kinda responsive in all devices. And hats off to Jhanker Mahbub Sir he tech me lot of things and he tech me how to exactly learn. 
 
 
 
